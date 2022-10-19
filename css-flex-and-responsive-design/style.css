@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  background-color: darkcyan;
+}
+
+.flex-container {
+  width: 100vw;
+  height: 1000px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5px;
+  flex-direction: column;
+}
+
+@media screen and (width < 768px) {
+  body {
+    background-color: blue;
+  }
+
+  .box {
+    background-color: brown;
+  }
+}
+
+@media screen and (width > 768px) and (width < 1024px) {
+  body {
+    background-color: pink;
+  }
+}

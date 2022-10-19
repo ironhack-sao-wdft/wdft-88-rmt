@@ -1,0 +1,35 @@
+/* comentario */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 30px;
+}
+
+/* seletor {
+    rule: value;
+    rule: value;
+} */
+
+img {
+  width: 150px;
+  height: auto;
+}
+
+/* figure {
+  background-color: brown;
+} */
+
+.cat-figure {
+  border: 5px dashed yellow;
+}
+
+#dog {
+  border: 2px solid blue;
+}
+
+/* User Agent */
