@@ -11,6 +11,7 @@ name = "Joelinthon";
 // TIPOS DE DADOS
 
 // "Tudo no JS é um objeto."
+// Na verdade, tudo no JS é baseado em um prototipo
 
 // Strings
 
