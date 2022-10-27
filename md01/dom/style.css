@@ -1,0 +1,13 @@
+.gigaChico {
+  width: 300px;
+  height: auto;
+}
+
+.miniChico {
+  width: 150px;
+  height: auto;
+}
+
+.border {
+  border: 50px solid red;
+}
