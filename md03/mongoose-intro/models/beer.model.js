@@ -3,6 +3,7 @@ import { model, Schema } from "mongoose";
 const beerSchema = new Schema({
   name: { type: String, required: true },
   price: { type: Number, required: true },
+  priceHistory: [{ type: Number }],
   beerType: {
     type: String,
     enum: [
@@ -18,6 +19,8 @@ const beerSchema = new Schema({
     default: "Não informado",
   },
   harmo: { type: [{ type: String, enum: ["Carne", "Peixe", "Salada"] }] },
+  createdAt: { type: Date, default: new Date(Date.now()) },
+  updatedAt: [],
 });
 
 export const BeerModel = model("Beer", beerSchema);
